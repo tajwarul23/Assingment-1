@@ -12,6 +12,7 @@ h1{
     color: orange;
 
     font-family: Gabriola;
+    font-size: 48px;
 }
 .Border{
     border-image: linear-gradient(salmon,orange);
@@ -26,7 +27,7 @@ h1{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;}
+    padding-left: 5%}
 
     .half-width img{
         width: 100%;
@@ -83,4 +84,21 @@ h1{
     }
     #c3{
         background-color: lightblue;
+    }
+    .bg{ background-image: url(/images/shapes/dream-bg.png);
+         margin-right: 5px;
+         position: relative;
+         bottom: 4px;
+         background-repeat:no-repeat ;
+    }
+    .bg-global{background-image: url(/images/shapes/exp-bg.png);
+        margin-right: 5px;
+        
+        bottom: 4px;
+        background-repeat:no-repeat ;
+    }
+    footer{
+      background-color: black;
+      text-align: center;
+            color: blanchedalmond;
     }
