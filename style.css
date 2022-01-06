@@ -21,6 +21,7 @@ h1{
 }
 .flex-container{
     display: flex;
+    
 
 }
 .half-width{
@@ -43,4 +44,43 @@ h1{
     #mission{
         color: rgb(67, 67, 228);
         text-align: center;
+    }
+    .box-item{
+        width: 23%;
+        padding-left: 5%;
+        box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    }
+    .flex-box{
+        display: flex;
+        
+    }
+    .card{
+        width: 40%;
+        padding-left: 7px;
+        box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    
+    }
+    .img{
+        width: 50%;
+        padding: 0px;
+        margin: 0px;
+       
+    }
+    h4{
+        margin: 0px; 
+    }
+    #c1{
+        background-color: palegreen;
+    }
+    #c2{
+        background-color: lightpink;
+    }
+    #c3{
+        background-color: lightblue;
     }
